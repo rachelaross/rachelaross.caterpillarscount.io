@@ -844,7 +844,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1759260745}
   - component: {fileID: 1759260744}
-  - component: {fileID: 1759260743}
   - component: {fileID: 1759260746}
   - component: {fileID: 1759260747}
   m_Layer: 0
@@ -854,21 +853,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1759260743
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1759260742}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e91230c13412d849ac99fe14f666d81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  branch: {fileID: 1759260742}
-  inGameBranchWidth: 0
-  branchWidthInMM: 0
 --- !u!212 &1759260744
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1242,6 +1226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   numOfBugs: 3
+  branch: {fileID: 0}
 --- !u!4 &1847499864
 Transform:
   m_ObjectHideFlags: 0
